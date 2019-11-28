@@ -1,0 +1,192 @@
+/* puplications */
+body {
+  font-family: 'Arial';
+  color: black;
+}
+
+h1 {
+  color: black;
+  font-size: 28px;
+  text-align: left;
+  margin-top: -1px;
+  margin-bottom: 2px;
+  font-weight: bold;
+
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li{
+  display: inline-block;
+  padding: 5px;
+}
+
+nav a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  color: #00b8d4;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.nav li a.active{
+  color: #EF2D56;
+}
+
+nav a:hover{
+  text-decoration: none;
+  color: darkgray;
+
+}
+
+.headshot{
+  width: 259px;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: left;
+  color: #EF2D56;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: left;
+  color: #EF2D56;
+  line-height: 16px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.about a:link{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#text {
+  font-size: 13px;
+  text-align: left;
+  line-height: 19px;
+}
+
+#text a:link{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#text img{
+  width: 80px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#smrl{
+  width: 150px;
+}
+
+#srg{
+  width: 100px;
+}
+
+#umich{
+  width: 285px;
+}
+
+#SI{
+  width: 259px;
+}
+
+.research-areas img{
+  width: 280px;
+}
+
+#contact{
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#contact img{
+  width: 11px;
+}
+
+#publications a{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#publications img{
+  width: 50px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#conference-publications a{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#conference-publications img{
+  width: 50px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#articles a{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#articles img{
+  width: 50px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#shortpapers a{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#workshops-panels a{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#workshop a{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#coverage a{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#students a{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#students img {
+  width: 100px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+#menu {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-left: 0px;
+  line-height: 20px;
+}
