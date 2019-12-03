@@ -317,7 +317,7 @@ h2{
   color: #00b8d4;
 }
 
-.teaching h1{
+.sensitive h1{
   color: black;
   font-size: 28px;
   text-align: left;
@@ -326,17 +326,22 @@ h2{
   font-weight: bold;
 }
 
-.teaching h2{
+.sensitive h2{
   margin-top: 20px;
   margin-left: 5vw;
   font-size: 25px;
-
+  margin-bottom: 25px;
 }
 
-.teaching h3{
+.sensitive h3{
   font-size: 16px;
   color: #EF2D56;
   margin-top: 20px;
+}
+
+#sensitive-published h2{
+  margin-left: 0vw;
+
 }
 
 #sensitive-text{
