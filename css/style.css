@@ -341,7 +341,6 @@ h2{
 
 #sensitive-published h2{
   margin-left: 0vw;
-
 }
 
 #sensitive-text{
@@ -353,4 +352,44 @@ h2{
 #sensitive-text a:link{
   text-decoration: none;
   color: #00b8d4;
+}
+
+.gender h1{
+  color: black;
+  font-size: 28px;
+  text-align: left;
+  margin-top: -1px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.gender h2{
+  margin-top: 20px;
+  margin-left: 5vw;
+  font-size: 25px;
+
+}
+
+.gender h3{
+  font-size: 16px;
+  color: #EF2D56;
+  margin-top: 20px;
+}
+
+#research2{
+  font-size: 13px;
+  margin-top: -17px;
+  margin-left: 5vw;
+}
+
+#research2 a:link{
+  text-decoration: none;
+  color: #00b8d4;
+}
+
+#research2-published h2{
+  margin-left: 0vw;
+}
+#transsns-header h2{
+  padding-bottom: 17px;
 }
