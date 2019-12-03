@@ -171,15 +171,15 @@ h3 {
   color: #00b8d4;
 }
 
-#students a{
+.students a{
   text-decoration: none;
   color: #00b8d4;
 }
 
-#students img {
-  width: 100px;
-  margin-right: 10px;
-  margin-top: 4px;
+.students img {
+  width: 200px;
+  margin-top: 5px;
+  margin-left: 5vw;
 }
 
 #menu {
@@ -189,4 +189,59 @@ h3 {
   margin-top: 0px;
   margin-left: 0px;
   line-height: 20px;
+}
+
+h2{
+  margin-top: 20px;
+  margin-left: 5vw;
+  font-size: 35px;
+}
+
+#prospects{
+  margin-left: 5vw;
+  margin-top: 2vw;
+  border: 1px solid #00b8d4;
+  width: 80vw;
+  text-align: center;
+
+}
+
+.students h3{
+  margin-top: 20px;
+  font-size: 27px;
+  margin-bottom: 2vw;
+  text-align: center;
+}
+
+.students h4{
+  margin-top: 20px;
+
+  font-size: 25px;
+  text-align: center;
+}
+
+
+.students p{
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  margin-left: 5vw;
+  border: 1px solid #00b8d4;
+  width: 20vw;
+  text-align: center;
+  padding: 5px;
+}
+
+.students{
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+
+.students .phd{
+  grid-column: 1 span 3;
+}
+
+.students {
+  overflow: auto;
 }
