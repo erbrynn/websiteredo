@@ -43,15 +43,224 @@ nav a{
   color: #EF2D56;
 }
 
+.skip a{
+  background: white;
+  color:;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px; 
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.skip a:focus{
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+*:focus{
+  border: 2px solid darkgray;
+}
+
 nav a:hover{
   text-decoration: none;
   color: darkgray;
 
 }
 
-.headshot{
-  width: 259px;
+.container{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 35px;
+  grid-template-rows: auto auto auto 100px; 
+  width: 100vw; 
 }
+
+#main{
+  grid-row: 1/span 1;
+  grid-column: 1/span 1;
+}
+
+.nav{
+  grid-row: 1/span 1;
+  grid-column: 2/-1;
+}
+
+.headshot{
+  grid-row: 2/span 1;
+  grid-column: 1/span 1;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.about{
+  grid-row: 2/span 1;
+  grid-column: 2/span 1;
+  text-align: justify;
+  text-justify: auto;
+  padding-left: 30px;
+  padding-right: 60px;
+}
+
+.about h2{
+  text-align: center;
+  padding-right: 50px;
+}
+
+.research-areas{
+  grid-row: 3/span 1;
+  grid-column: 1/span 1;
+  align-content: center;
+  text-align: center;
+}
+.research-areas h2{
+  text-align: center;
+  padding-right: 60px;
+}
+.research-areas h3{
+  text-align: center;
+}
+
+.news{
+  grid-row: 3/span 1;
+  grid-column: 2/span 1;
+  display:block;
+  width:650px;
+  height: 700px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+.news h2{
+  text-align: center;
+  padding-right: 60px;
+}
+
+.footer{
+  grid-row: 4/span 1;
+  grid-column: 1/-1;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  /*HOW DO I MAKE A STICKTY FOOTERRRRRR????????*/
+}
+
+.footer li{
+  display: inline-block;
+  padding: 20px;
+}
+
+.container-publications{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 35px;
+  grid-template-rows: auto auto auto auto auto auto 100px; 
+  width: 100vw; 
+
+}
+
+#title{
+  grid-row: 2/span 1;
+  grid-column: 1/-1;
+}
+
+#journal-publications{
+  grid-row: 3/span 1;
+  grid-column: 1/2;
+  width:650px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+
+}
+#conference-publications{
+  grid-row: 3/span 1;
+  grid-column: 2/-1;
+  width:650px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+#articles{
+  grid-row: 4/span 1;
+  grid-column: 1/2;
+  width:650px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+#shortpapers{
+  grid-row: 4/span 1;
+  grid-column: 2/-1;
+  width:650px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+#workshops-panels{
+  grid-row: 5/span 1;
+  grid-column: 1/2;
+  width:650px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+#workshop{
+  grid-row: 5/span 1;
+  grid-column: 2/-1;
+  width:650px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+#informal{
+  grid-row: 6/span 1;
+  grid-column: 1/2;
+  width:650px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+#coverage{
+  grid-row: 6/span 1;
+  grid-column: 2/-1;
+  width:650px;
+  height: 500px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 2px solid black;
+  padding: 3px;
+}
+
+
+
 
 h2 {
   font-size: 18px;
@@ -393,3 +602,4 @@ h2{
 #transsns-header h2{
   padding-bottom: 17px;
 }
+
