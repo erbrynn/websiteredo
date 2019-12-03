@@ -315,5 +315,37 @@ h2{
 #transition-text a:link{
   text-decoration: none;
   color: #00b8d4;
+}
 
+.teaching h1{
+  color: black;
+  font-size: 28px;
+  text-align: left;
+  margin-top: -1px;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.teaching h2{
+  margin-top: 20px;
+  margin-left: 5vw;
+  font-size: 25px;
+
+}
+
+.teaching h3{
+  font-size: 16px;
+  color: #EF2D56;
+  margin-top: 20px;
+}
+
+#sensitive-text{
+  font-size: 13px;
+  margin-top: -17px;
+  margin-left: 5vw;
+}
+
+#sensitive-text a:link{
+  text-decoration: none;
+  color: #00b8d4;
 }
