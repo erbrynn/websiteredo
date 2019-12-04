@@ -74,12 +74,11 @@ nav a:hover{
 }
 
 #main h1{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
   grid-row: 2/span 1;
   grid-column: 1/-1;
-  text-align: left;
-  text-transform: uppercase;
-  padding-top: 20px;
-  padding-left: 20px;
   font-size: 28px;
 }
 
@@ -153,112 +152,127 @@ nav a:hover{
 
 .container-publications{
   display: grid;
-  grid-template-columns: 50% 50%;
-  grid-row-gap: 35px;
-  grid-template-rows: auto auto auto auto auto auto 100px; 
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto 100px; 
   width: 100vw; 
-
-}
-
-#title{
-  grid-row: 2/span 1;
-  grid-column: 1/-1;
 }
 
 #journal-publications{
   grid-row: 3/span 1;
-  grid-column: 1/2;
+  grid-column: 1/-1;
   width:650px;
   height: 500px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: 2px solid black;
   padding: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 
 }
 #conference-publications{
-  grid-row: 3/span 1;
-  grid-column: 2/-1;
+  grid-row: 4/span 1;
+  grid-column: 1/-1;
   width:650px;
   height: 500px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: 2px solid black;
   padding: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #articles{
-  grid-row: 4/span 1;
-  grid-column: 1/2;
+  grid-row: 5/span 1;
+  grid-column: 1/-1;
   width:650px;
   height: 500px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: 2px solid black;
   padding: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #shortpapers{
-  grid-row: 4/span 1;
-  grid-column: 2/-1;
+  grid-row: 6/span 1;
+  grid-column: 1/-1;
   width:650px;
   height: 500px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: 2px solid black;
   padding: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #workshops-panels{
-  grid-row: 5/span 1;
-  grid-column: 1/2;
+  grid-row: 7/span 1;
+  grid-column: 1/-1;
   width:650px;
   height: 500px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: 2px solid black;
   padding: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #workshop{
-  grid-row: 5/span 1;
-  grid-column: 2/-1;
+  grid-row: 8/span 1;
+  grid-column: 1/-1;
   width:650px;
   height: 500px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: 2px solid black;
   padding: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #informal{
-  grid-row: 6/span 1;
-  grid-column: 1/2;
+  grid-row: 9/span 1;
+  grid-column: 1/-1;
   width:650px;
   height: 500px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: 2px solid black;
   padding: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 #coverage{
-  grid-row: 6/span 1;
-  grid-column: 2/-1;
+  grid-row: 10/span 1;
+  grid-column: 1/-1;
   width:650px;
   height: 500px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   border: 2px solid black;
   padding: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
-
-
-
 
 h2 {
   font-size: 18px;
-  text-align: left;
+  text-align:  center;
   color: #EF2D56;
   margin-top: 0px;
   margin-bottom: 5px;
@@ -570,7 +584,6 @@ h2{
   margin-top: 20px;
   margin-left: 5vw;
   font-size: 25px;
-
 }
 
 .gender h3{
@@ -597,7 +610,12 @@ h2{
   padding-bottom: 17px;
 }
 
-@media screen and (min-width: 800px) {
+#journal-publications img{
+  max-height: 50px;
+  max-width: 50px;
+}
+
+@media screen and (min-width: 1024px) {
 
 .container{
   display: grid;
@@ -605,11 +623,6 @@ h2{
   grid-row-gap: 35px;
   grid-template-rows: auto auto auto 100px; 
   width: 100vw; 
-}
-
-#main{
-  grid-row: 1/span 1;
-  grid-column: 1/span 1;
 }
 
 .nav{
@@ -702,11 +715,6 @@ nav li{
   grid-template-rows: auto auto auto auto auto auto 100px; 
   width: 100vw; 
 
-}
-
-#title{
-  grid-row: 3/span 1;
-  grid-column: 1/-1;
 }
 
 #journal-publications{
