@@ -1,15 +1,7 @@
 body {
   font-family: 'Arial';
   color: black;
-}
-
-h1 {
-  color: black;
-  font-size: 28px;
-  text-align: left;
-  margin-top: -1px;
-  margin-bottom: 2px;
-  font-weight: bold;
+  background-color: #f1f1f1;
 }
 
 nav{
@@ -30,7 +22,7 @@ nav a{
   color: black;
   text-decoration: none;
   font-size: 20px;
-  color: #00b8d4;
+  color: #003EFF;
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
@@ -84,8 +76,11 @@ nav a:hover{
 #main h1{
   grid-row: 2/span 1;
   grid-column: 1/-1;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 28px;
 }
 
 .headshot{
@@ -280,7 +275,7 @@ h3 {
 
 .about a:link{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 #text {
@@ -291,7 +286,7 @@ h3 {
 
 #text a:link{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 #text img{
@@ -344,7 +339,7 @@ h3 {
 
 #conference-publications a{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 #conference-publications img{
@@ -355,7 +350,7 @@ h3 {
 
 #articles a{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 #articles img{
@@ -366,27 +361,27 @@ h3 {
 
 #shortpapers a{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 #workshops-panels a{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 #workshop a{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 #coverage a{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 .students a{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 .students img {
@@ -477,7 +472,7 @@ h2{
 
 .teaching h3{
   font-size: 16px;
-  color: #EF2D56;
+  color: #003EFF;
   margin-top: 20px;
 }
 
@@ -489,7 +484,7 @@ h2{
 
 #teaching-text a:link{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 .transition h1{
@@ -510,7 +505,7 @@ h2{
 
 .transition h3{
   font-size: 16px;
-  color: #EF2D56;
+  color: #003EFF;
   margin-top: 20px;
 }
 
@@ -592,7 +587,7 @@ h2{
 
 #research2 a:link{
   text-decoration: none;
-  color: #00b8d4;
+  color: #003EFF;
 }
 
 #research2-published h2{
@@ -619,11 +614,21 @@ h2{
 
 .nav{
   grid-row: 1/span 1;
-  grid-column: 2/-1;
+  grid-column: 1/-1;
+}
+
+nav ul{
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li{
+  display: inline-block;
+  padding: 5px;
 }
 
 .headshot{
-  grid-row: 2/span 1;
+  grid-row: 3/span 1;
   grid-column: 1/span 1;
   max-width: 500px;
   margin-left: auto;
@@ -632,7 +637,7 @@ h2{
 }
 
 .about{
-  grid-row: 2/span 1;
+  grid-row: 3/span 1;
   grid-column: 2/span 1;
   text-align: justify;
   text-justify: auto;
@@ -646,7 +651,7 @@ h2{
 }
 
 .research-areas{
-  grid-row: 3/span 1;
+  grid-row: 4/span 1;
   grid-column: 1/span 1;
   align-content: center;
   text-align: center;
@@ -660,7 +665,7 @@ h2{
 }
 
 .news{
-  grid-row: 3/span 1;
+  grid-row: 4/span 1;
   grid-column: 2/span 1;
   display:block;
   width:650px;
@@ -677,7 +682,7 @@ h2{
 }
 
 .footer{
-  grid-row: 4/span 1;
+  grid-row: 5/span 1;
   grid-column: 1/-1;
   margin-left: auto;
   margin-right: auto;
@@ -700,12 +705,12 @@ h2{
 }
 
 #title{
-  grid-row: 2/span 1;
+  grid-row: 3/span 1;
   grid-column: 1/-1;
 }
 
 #journal-publications{
-  grid-row: 3/span 1;
+  grid-row: 4/span 1;
   grid-column: 1/2;
   width:650px;
   height: 500px;
@@ -716,7 +721,7 @@ h2{
 
 }
 #conference-publications{
-  grid-row: 3/span 1;
+  grid-row: 4/span 1;
   grid-column: 2/-1;
   width:650px;
   height: 500px;
@@ -727,7 +732,7 @@ h2{
 }
 
 #articles{
-  grid-row: 4/span 1;
+  grid-row: 5/span 1;
   grid-column: 1/2;
   width:650px;
   height: 500px;
@@ -738,7 +743,7 @@ h2{
 }
 
 #shortpapers{
-  grid-row: 4/span 1;
+  grid-row: 5/span 1;
   grid-column: 2/-1;
   width:650px;
   height: 500px;
@@ -749,7 +754,7 @@ h2{
 }
 
 #workshops-panels{
-  grid-row: 5/span 1;
+  grid-row: 6/span 1;
   grid-column: 1/2;
   width:650px;
   height: 500px;
@@ -760,7 +765,7 @@ h2{
 }
 
 #workshop{
-  grid-row: 5/span 1;
+  grid-row: 6/span 1;
   grid-column: 2/-1;
   width:650px;
   height: 500px;
@@ -771,7 +776,7 @@ h2{
 }
 
 #informal{
-  grid-row: 6/span 1;
+  grid-row: 7/span 1;
   grid-column: 1/2;
   width:650px;
   height: 500px;
@@ -782,7 +787,7 @@ h2{
 }
 
 #coverage{
-  grid-row: 6/span 1;
+  grid-row: 7/span 1;
   grid-column: 2/-1;
   width:650px;
   height: 500px;
