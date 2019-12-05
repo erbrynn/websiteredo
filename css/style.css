@@ -421,8 +421,6 @@ h3 {
 
 
 #prospects{
-  margin-left: 5vw;
-  margin-top: 2vw;
   border: 2px solid #00b8d4;
   width: 80vw;
   text-align: center;
@@ -707,9 +705,12 @@ nav li{
   grid-row-gap: 35px;
   grid-template-rows: auto auto auto auto auto auto auto 100px;
   width: 100vw;
-
 }
 
+#prospects{
+  margin-left: 5vw;
+  margin-top: 2vw;
+}
 
 #journal-publications{
   grid-row: 4/span 1;
